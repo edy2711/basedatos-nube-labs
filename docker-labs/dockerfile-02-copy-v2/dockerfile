@@ -1,0 +1,6 @@
+FROM alpine:latest
+
+# Comentario
+COPY mensaje.txt /mensaje.txt
+
+COPY app /app

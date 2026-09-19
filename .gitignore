@@ -1,0 +1,6 @@
+# Ignorar todos los archivos dde variables de entorno
+.env
+.env.*
+*.env
+# EXCEPTION: No ignorar el archivo .env.example
+!.env.example
